@@ -1,0 +1,42 @@
+node_modules/
+.env
+uploads/
+*.log
+.DS_Storea# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+out/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Testing
+coverage/
+
+# Environment variables
+.env
+
+#Drive variables
+src/config/apikeys.json
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+file-storage
