@@ -28,6 +28,7 @@
     "multer-storage-cloudinary": "^4.0.0",
     "nodemailer": "^7.0.4",
     "qs": "^6.14.0",
+    "resend": "^6.5.2",
     "socket.io": "^4.8.1",
     "youtubei": "^1.6.7",
     "ytdl-core": "^4.11.5"
