@@ -105,7 +105,8 @@ const createPayment = async (req, res) => {
     // Create orderCode for PayOS
     const orderCode = Number(`${Date.now()}`.slice(-9));
     const amount = course.price;
-    const description = `Pay course: ${course.title}`;
+    const titleShort = course.title.replace(/\s+/g, ' ').trim();
+    const description = `Pay ${titleShort}`.slice(0, 25);
 
     const returnUrl =
     process.env.CLIENT_URL +
